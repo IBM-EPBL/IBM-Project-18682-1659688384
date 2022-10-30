@@ -1,8 +1,9 @@
 #ASSIGNMENT-1 : Resume Web page
 
 ### Resume page 
-![Hari_resume](![screencapture-file-D-cloud-Project-Hari-R-Assignment1-html-2022-10-30-17_55_03](https://user-images.githubusercontent.com/114049336/198879483-77c2e991-38d8-4ceb-b1c0-07a76d1fb09f.png)
+![Hari_resume](![Screenshot (17)](https://user-images.githubusercontent.com/114049336/198879818-2a860f11-03af-48ce-8c8e-9014997e048e.png)
 )
+
 
 
 
