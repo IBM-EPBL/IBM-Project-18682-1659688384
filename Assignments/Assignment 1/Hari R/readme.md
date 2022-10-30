@@ -1,10 +1,8 @@
 #ASSIGNMENT-1 : Resume Web page
 
 ### Resume page 
-![Hari_resume](![screencapture-file-D-cloud-Project-Hari-R-Assignment1-html-2022-10-30-17_55_03](https://user-images.githubusercontent.com/114049336/198878354-4deef761-7c54-4cb0-bfde-4dabcb601952.png)
+![Hari_resume](![screencapture-file-D-cloud-Project-Hari-R-Assignment1-html-2022-10-30-17_55_03](https://user-images.githubusercontent.com/114049336/198879483-77c2e991-38d8-4ceb-b1c0-07a76d1fb09f.png)
 )
-)
-
 
 
 
@@ -20,8 +18,7 @@ THE  Output Screen was  like this:
 
 
 
-![Hari-download](![Screenshot (1)](![Screenshot (14)](https://user-images.githubusercontent.com/114049336/198878000-c36e35dd-c683-41ee-b3d5-8a95d0c73478.png)
-)
+![Hari-download](![Screenshot (14)](https://user-images.githubusercontent.com/114049336/198879502-84acc06a-7e84-4cc1-99ea-d52c13297313.png)
 )
 
 
@@ -35,13 +32,11 @@ THE  Output Screen was  like this:
 
 
 
-![Hari-form](![Screenshot (12)](https://user-images.githubusercontent.com/114049336/198878035-62d2adbd-a866-4317-9667-7d680574a356.png)
-)
+![Hari-form](![Screenshot (12)](https://user-images.githubusercontent.com/114049336/198879523-71593a13-63d3-4e12-bf5a-c082da40749c.png)
 )
 then it will check condition:
 
-![Hari_error](![Screenshot (16)](https://user-images.githubusercontent.com/114049336/198878053-db6cdd3b-893f-499b-a514-51d8ce61d651.png)
-)
+![Hari_error](![Screenshot (16)](https://user-images.githubusercontent.com/114049336/198879580-1985e2b9-98f4-4cfc-99ce-6fd11f52ee4b.png)
 )
 
 
