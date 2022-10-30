@@ -1,8 +1,9 @@
 #ASSIGNMENT-1 : Resume Web page
 
 ### Resume page 
-![Hari_resume](![Screenshot (17)](https://user-images.githubusercontent.com/114049336/198879818-2a860f11-03af-48ce-8c8e-9014997e048e.png)
+![Hari_resume](![Screenshot (19)](https://user-images.githubusercontent.com/114049336/198880085-f3b948f3-d961-48a4-8608-e6297d41bee4.png)
 )
+
 
 
 
