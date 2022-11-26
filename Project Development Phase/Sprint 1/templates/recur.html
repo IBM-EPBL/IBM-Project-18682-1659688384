@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="../static/css/recruiter.css">
+<body>
+<nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="sign.html">Skill&Job Recommender </a>
+      </div>
+      <ul>
+        <li><a href="{{url_for ('home') }}">Home</a></li>
+        <li><a href="{{url_for ('about') }}">About</a></li> 
+        <li><a href="{{url_for ('login') }}">Job Seeker</a></li>
+        <li><a href="{{url_for ('recur') }}">Recruiter</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="container">
+      <div class="card">
+        <div class="card_title">
+          <h1>JOB POSTING</h1>
+        </div>
+        <div class="form">
+        <form action="/register" method="post">
+          <input type="text" name="Companyname" id="Companyname" placeholder="Companyname" />
+          <input type="Designation" name="Designation" placeholder="Designation" id="Designation" />
+          <input type="text" name="Qualification" placeholder="Qualification" id="Qualification" />
+           <input type="text" name="Skills" placeholder="Skills" id="Skills" />
+          <input type="text" name="Batch" placeholder="Batch" id="Batch" />
+          <input type="text" name="Location" placeholder="Location" id="Location" />
+          <button type="submit">Post</button>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
