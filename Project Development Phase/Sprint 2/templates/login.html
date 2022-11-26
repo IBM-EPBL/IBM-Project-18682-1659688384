@@ -1,0 +1,38 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> homepage</title>
+    <link rel="stylesheet" href="../static/css/userlogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+ <nav>
+ 
+    <div class="menu">
+      <div class="logo">
+        <a href="">Skill&Job Recommender </a>
+      </div>
+      <ul>
+        <li><a href="{{url_for ('home') }}">Home</a></li>
+        <li><a href="{{url_for ('about') }}">About</a></li>
+        <li><a href="{{url_for('sign') }}">Signup</a></li>
+        <li><a href="{{url_for('recur')}}">Recruiter</a></li>
+      </ul>
+    </div>
+  </nav>-->
+      <div class="login-page">
+        <div class="form">
+                <h2>SIGN IN TO YOUR ACCOUNT</h2>
+                <input type="text" required placeholder="Username" id="user" autocomplete="off" />
+                <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass" autocomplete="off" />
+                <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                    onclick="show()" id="showimg">
+                <span id="vaild-pass"></span>
+                <button type="submit">SIGN</button>
+                <p class="message"><a href="{{url_for('sign')}}">I don't have an account</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> homepage</title>
+    <link rel="stylesheet" href="../static/css/usersignup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="{{url_for ('sign') }}">Skill&Job Recommender </a>
+      </div>
+      <ul>
+        <li><a href="{{url_for ('home') }}">Home</a></li>
+        <li><a href="{{url_for ('about') }}">About</a></li>
+        <li><a href="{{url_for ('login') }}">Log in</a></li>
+        <li><a href="{{url_for('recur')}}">Recruiter</a></li>   
+     </ul>
+    </div>
+  </nav>
+   <div class="container">
+      <div class="card">
+        <div class="card_title">
+          <h1>Create Account</h1>
+          <span>Already have an account? <a href="userloginpage.html">Sign In</a></span>
+        </div>
+        <div class="form">
+        <form action="/sign" method="post">
+          <input type="text" name="username" id="username" placeholder="UserName" />
+          <input type="email" name="email" placeholder="Email" id="email" />
+          <input type="text" name="Qualification" id="Qualification" placeholder="Qualification"/>
+          <input type="text" name="Technical skills" id="Technical skills" placeholder="Technical skills"/>
+          <input type="password" name="password" placeholder="Password" id="password" />
+          <div class="resume">
+          <label>upload resume</label>
+
+          <input class="resume-Upload"type="file" name="resume" title="upload resume">
+          <button type="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="card_terms">
+            <input type="checkbox" name="" id="terms"> <span>I have read and agree to the <a href="">Terms of Service</a></span>
+        </div>
+      </div>
+    </div>
