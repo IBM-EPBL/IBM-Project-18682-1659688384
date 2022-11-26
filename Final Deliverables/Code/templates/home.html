@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> homepage</title>
+      <link rel="stylesheet" href="../static/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+       <style>
+           body{
+               background-image: url(../static/images/img3.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+                }
+         </style>
+      </head>
+  <body>
+  
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="">Skill&Job Recommender </a>
+        </div>
+        <ul>
+          <li><a href="{{url_for ('home') }}">Home</a></li>
+          <li><a href="{{url_for ('about') }}">About</a></li> 
+          <li><a href="{{url_for ('login') }}">Job Seeker</a></li>
+          <li><a href="{{url_for ('recur') }}">Recruiter</a></li>
+        </ul>
+      </div>
+    </nav>
+      </div>
+    </div>
+  </body>
+  </html>
+ 
